@@ -1,0 +1,35 @@
+.new_entry{
+-fx-background-image: url("../images/new_entry.png");
+-fx-background-size: 100px 100px;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-color: transparent;
+}
+
+.sell{
+-fx-background-image: url("../images/sale_icon.png");
+-fx-background-size: 100px 100px;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-color: transparent;
+}
+
+.search{
+-fx-background-image: url("../images/search.png");
+-fx-background-size: 100px 100px;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-color: transparent;
+}
+
+.new_entry:hover{
+-fx-background-color: gainsboro;
+}
+
+.sell:hover{
+-fx-background-color: gainsboro;
+}
+
+.search:hover{
+-fx-background-color: gainsboro;
+}

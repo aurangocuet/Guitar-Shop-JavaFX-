@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<AnchorPane prefHeight="118.0" prefWidth="299.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GuitarCatagoryController">
+   <children>
+      <Label layoutX="25.0" layoutY="51.0" text="Catagory Name :" />
+      <TextField fx:id="guitar_catagory" layoutX="126.0" layoutY="47.0" prefHeight="25.0" prefWidth="164.0" />
+      <Button layoutX="252.0" layoutY="79.0" mnemonicParsing="false" onAction="#addCatagoryClicked" text="Add" />
+   </children>
+</AnchorPane>

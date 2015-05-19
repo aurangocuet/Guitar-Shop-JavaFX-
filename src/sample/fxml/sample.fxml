@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="624.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#addCompany" text="Add Company" />
+                        <MenuItem mnemonicParsing="false" onAction="#addName" text="Add Guitar Name" />
+                        <MenuItem mnemonicParsing="false" onAction="#addCatagory" text="Add Guitar Catagory" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="setting">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#runTabelCreator" text="Run To Create Tabel" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="List">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#guitarListClicked" text="Guitar List " />
+                        <MenuItem mnemonicParsing="false" onAction="#customerListClicked" text="Customer List" />
+                        <MenuItem mnemonicParsing="false" onAction="#companyListClicked" text="Company List" />
+                  <MenuItem mnemonicParsing="false" onAction="#soldListClicked" text="Sold List" />
+                        <MenuItem mnemonicParsing="false" onAction="#nameListClicked" text="Guitar Name List" />
+                        <MenuItem mnemonicParsing="false" onAction="#catagoryListClicked" text="Catagory List" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Developer Section">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Run SQL" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane layoutX="2.0" layoutY="26.0" prefHeight="407.0" prefWidth="624.0">
+            <children>
+                <Button layoutX="35.0" layoutY="121.0" mnemonicParsing="false" onAction="#addNewEntry" prefHeight="121.0" prefWidth="131.0" styleClass="new_entry" stylesheets="/sample/css/style.css" />
+                <Button layoutX="451.0" layoutY="121.0" mnemonicParsing="false" onAction="#sellClicked" prefHeight="121.0" prefWidth="131.0" styleClass="sell" stylesheets="/sample/css/style.css" />
+                <Button layoutX="247.0" layoutY="121.0" mnemonicParsing="false" onAction="#searchClicked" prefHeight="121.0" prefWidth="131.0" styleClass="search" stylesheets="/sample/css/style.css" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
